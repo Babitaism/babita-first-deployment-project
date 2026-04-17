@@ -41,4 +41,4 @@ jobs:
 
       # Push image
       - name: Push Image
-        run: ker push ${{ secrets.ECR_REPO }}:latest
+        run: docker push ${{ secrets.ECR_REPO }}:latest
