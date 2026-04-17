@@ -37,8 +37,8 @@ jobs:
 
       # Tag image
       - name: Tag Image
-        run: docker tag babita-react-app:latest $ECR_REPO:latest
+        run: docker tag babita-react-app:latest ${{ secrets.ECR_REPO }}:latest
 
       # Push image
       - name: Push Image
-        run: docker push $ECR_REPO:latest
+        run: ker push ${{ secrets.ECR_REPO }}:latest
