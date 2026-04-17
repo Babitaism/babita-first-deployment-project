@@ -38,7 +38,7 @@ function App() {
         </div>
         <div className="right-side">
           <div className="input-box">
-            <h3>Login to your account Babita</h3>
+            <h3>Login to Babita's account</h3>
             <input
               className="input"
               type="text"
